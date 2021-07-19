@@ -1,0 +1,107 @@
+.container {
+    margin: 50px auto;
+}
+
+.container .level {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container .level button {
+    padding: 5px 15px;
+    background-color: #02a4ad;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.container .level button.active {
+    background-color: #00abff;
+}
+
+.container .gameBox table {
+    margin: 0 auto;
+    border-spacing: 1px;
+    background-color: #929196;
+}
+
+.container .gameBox table td {
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #fff;
+    text-align: center;
+    padding: 0;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.container .info {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container .gameBox table td.mine {
+    background: url(../images/mine.png) no-repeat center #d9d9d9;
+    background-size: cover;
+}
+
+.container .gameBox table td.flag {
+    background: url(../images/flag.png) no-repeat center #ccc;
+    background-size: cover;
+}
+
+.container .gameBox table td.zero {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+}
+
+.container .gameBox table td.one {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #0332fe;
+}
+
+.container .gameBox table td.two {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #019f02;
+}
+
+.container .gameBox table td.three {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff2600;
+}
+
+.container .gameBox table td.four {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #93208f;
+}
+
+.container .gameBox table td.five {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff7f29;
+}
+
+.container .gameBox table td.six {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff3fff;
+}
+
+.container .gameBox table td.seven {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #3fffbf;
+}
+
+.container .gameBox table td.eight {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #22ee0f;
+}
